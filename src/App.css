@@ -63,7 +63,7 @@ body {
   color: white;
   font-weight: 500;
   position: relative;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 @media (max-width: 768px) {
