@@ -55,8 +55,9 @@ body {
 .nav-elements ul a {
   font-size: 16px;
   font-weight: 400;
-  color: var(--navbar-footer-font-color);;
+  color: var(--navbar-footer-font-color);
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .nav-elements ul a.active {
@@ -64,6 +65,16 @@ body {
   font-weight: 500;
   position: relative;
   /* text-transform: uppercase; */
+}
+
+.nav-elements ul a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--navbar-footer-font-color);
 }
 
 @media (max-width: 768px) {
