@@ -8,7 +8,7 @@ const Footer = () => {
   <div className="footer">
     <div className='copyright'>
       <p className="p-footer">
-        <a href="https://www.facebook.com/malekinusicdoo" className="fb-icon" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/kabeloptikadoo" className="fb-icon" target="_blank" rel="noopener noreferrer">
           <FacebookLogo />
         </a>
       </p>
