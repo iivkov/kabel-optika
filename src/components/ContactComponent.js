@@ -54,7 +54,7 @@ const ContactComponent = () => {
             </div>
         {/* <div className="spacer"></div> */}
             <div className={`box right ${animate ? 'enter' : 'right-enter'}`}>
-                <iframe title="Lokacija tvrtke" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d585.8648575285789!2d16.405872601815844!3d45.69380902617986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47665e22000241b3%3A0xe5bfee892d8729c4!2sKunekova%20ul.%202%2C%2010310%2C%20Ivani%C4%87-Grad!5e0!3m2!1shr!2shr!4v1701974682914!5m2!1shr!2shr" width="100%" height="400" style={{border: 0, allowfullscreen: "", loading: "lazy", referrerpolicy: "no-referrer-when-downgrade"}}></iframe>
+                <iframe title="Lokacija tvrtke" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d695.5245968052798!2d15.952682269637318!3d45.78925659819257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d69099c16d9f%3A0xeffe502d8c8b4d13!2sUl.%20%C4%86ire%20Truhelke%2015%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1703317735526!5m2!1shr!2shr" width="100%" height="400" style={{border: 0, allowfullscreen: "", loading: "lazy", referrerpolicy: "no-referrer-when-downgrade"}}></iframe>
             </div>
         </div>
     </div> 
