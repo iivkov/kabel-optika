@@ -4,7 +4,7 @@
   --initial-h1-font-size: 30px; 
   --initial-h2-font-size: 25px; 
   --initial-p-font-size: 20px; 
-  --navbar-footer-color: #333333;
+  --navbar-footer-color: #333333; /* background: #33a2db; */
   --navbar-footer-font-color: #cccccc;
 }
 
@@ -29,11 +29,14 @@ body {
   height: 100px;
   background-color: var(--navbar-footer-color);
   position: relative;
+  /* position: fixed;
+  width: 100%;
+  top: 0; */
 }
 
-.logo {
+/* .logo {
     cursor: pointer;
-}
+} */
 
 .menu-icon {
   display: none;
@@ -182,7 +185,8 @@ p {
 
 .main_content {
   padding: 20px;
-  margin: 20px;
+  /* padding: 100px; */
+  margin-top: 20px;
   text-align: justify;
   /* border: 1px solid #ccc; */
 }
