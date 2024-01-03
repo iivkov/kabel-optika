@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import EUnoteSite from './EUnoteSite';
-// import slika from '../assets/.gif';
+// import slika from '../assets/8.jpg';
 
 const HomeComponent = () => {
     const [animate, setAnimate] = useState(false);
@@ -12,6 +12,7 @@ const HomeComponent = () => {
 
     return (
     <div className="main_content">
+        {/* <img src={slika} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} /> */}
         <EUnoteSite/>
         <h1>Dobrodošli!</h1>
         <div className="container">

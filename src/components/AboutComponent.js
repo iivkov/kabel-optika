@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from 'react';
 import '../App.css';
-// import slika from '../assets/.jpg';
+// import slika from '../assets/8b.jpg';
 
 const AboutComponent = () => {
     const [animate, setAnimate] = useState(false);
@@ -11,6 +11,7 @@ const AboutComponent = () => {
 
     return (
         <div className="main_content">
+                {/* <img src={slika} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} /> */}
                 <h1>O nama</h1>
                 <div className="container">
                     <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>

@@ -7,11 +7,12 @@ const ProjectsComponent = () => {
     
     return (
     <div className="main_content">
+        <img src={Petrinja} alt="Slika Petrinje." style={{ width: '100%', height: 'auto' }} />
         <h1>NOVI RAZVOJ U PETRINJI KABEL-OPTIKA d.o.o.</h1>
         <h2>Kod projekta: KK.08.2.1.16.0148</h2>
         <h2>Naziv poziva: Podrška razvoju poduzetništva u gradu Petrinji</h2>
         <div className="container">
-            <img src={Petrinja} alt="Slika Petrinje." style={{ width: '100%', height: 'auto' }} />
+            {/* <img src={Petrinja} alt="Slika Petrinje." style={{ width: '100%', height: 'auto' }} /> */}
             <p>Cilj ovog projekta je održiva fizička, socijalna i gospodarska regeneracija grada Petrinje, s ciljem smanjenja socijalnih nejednakosti, isključenosti i siromaštva. 
                     Nabavom novih roba i/ili usluga, Prijavitelj će povećati svoju: konkurentnost i održivost poslovanja i proizvodne kapacitete. Prijavitelj će otvoriti nova tržišta i povećat će mu se prihod. 
                     Projekt je usmjeren na djelatnike Prijavitelja, kupce i dobavljače kao ciljne skupine projekta, ali i sve građane Republike Hrvatske i to upravo kroz očuvanje postojećih radnih mjesta i otvaranje novih. 
