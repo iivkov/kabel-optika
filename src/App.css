@@ -185,8 +185,9 @@ p {
 
 .main_content {
   padding: 20px;
-  /* padding: 100px; */
-  margin-top: 20px;
+  /* padding: 100px; slučaj fiksne navigacije */
+  margin: 20px;
+  /* margin-top: 20px; */
   text-align: justify;
   /* border: 1px solid #ccc; */
 }
