@@ -140,11 +140,19 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   padding: 10px;
   margin-bottom: 10px;
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 10px;
+=======
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+>>>>>>> 6351b05bcc20b50404de231012ebc59d594e165a
   border: 1px solid #ccc;
 }
 
