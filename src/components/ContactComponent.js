@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import '../App.css';
+import slika from '../assets/13.jpg';
 
 const ContactComponent = () => {
     const form = useRef();
@@ -29,6 +30,7 @@ const ContactComponent = () => {
 
 	return (
     <div className="main_content">
+        <img src={slika} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
         <h1>Kontakt</h1>
         <div className="container">
             <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>
