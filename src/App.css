@@ -204,7 +204,7 @@ p {
   /* padding: 100px; slučaj fiksne navigacije */
   /* margin: 20px; */
   /* margin-top: 20px; */
-  text-align: justify;
+  text-align: center;
   /* border: 1px solid #ccc; */
 }
 
@@ -212,7 +212,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   padding: 20px;
 }
 
@@ -250,6 +250,7 @@ p {
 .contact {
   width: auto;
   padding: 10px;
+  text-align: justify;
 }
 
 label {
