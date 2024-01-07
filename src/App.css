@@ -332,3 +332,21 @@ textarea {
   background-color: var(--footer-color);
   color: white;
 }
+
+.page-image {
+  background-image: url('assets/1.jpg');
+  /* position: relative; */
+  display: inline-block;
+  width:100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .page-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+

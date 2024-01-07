@@ -12,7 +12,10 @@ const HomeComponent = () => {
 
     return (
     <div className="main_content">
-        <img src={slika} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
+        {/* <img src={slika} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} /> */}
+        <div className='page-image'>
+            
+        </div>
         <EUnoteSite/>
         <h1>Dobrodošli!</h1>
         <div className="container">
