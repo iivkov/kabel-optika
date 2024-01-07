@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../App.css';
 import EUnoteSite from './EUnoteSite';
 import slika from '../assets/1.jpg';
+import TopImage from './TopImage';
 
 const HomeComponent = () => {
     const [animate, setAnimate] = useState(false);
@@ -12,10 +13,8 @@ const HomeComponent = () => {
 
     return (
     <div className="main_content">
-        {/* <img src={slika} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} /> */}
-        <div className='page-image'>
-            
-        </div>
+        {/* <div className="top-image"></div> */}
+        <TopImage selectedImage={slika} />
         <EUnoteSite/>
         <h1>Dobrodošli!</h1>
         <div className="container">

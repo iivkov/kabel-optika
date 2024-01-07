@@ -9,6 +9,10 @@ import InformationComponent from './components/InformationComponent';
 import ProjectsComponent from './components/ProjectsComponent';
 import ContactComponent from './components/ContactComponent';
 import AccessibilityMenu from './components/AccessibilityMenu';
+// import TopImage from './components/TopImage';
+// import slika1 from './assets/1.jpg';
+// import slika2 from './assets/3.jpg';
+// import slika3 from './assets/4.jpg'; 
 
 function App() {
   const [fontSize, setFontSize] = useState(16);
@@ -41,11 +45,14 @@ function App() {
     setHighContrast(prevHighContrast => !prevHighContrast);
   };
 
+  // const imageList = [slika1, slika2, slika3];
+
   return (
     <div className={`App ${grayscale ? 'grayscale' : ''} ${highContrast ? 'high-contrast' : ''}`} style={{ fontSize: `${fontSize}px`}}>
     {/* < > */}
       <BrowserRouter>
         <Navbar/>
+        {/* <TopImage images={imageList} /> */}
         <AccessibilityMenu
         increaseFontSize={increaseFontSize}
         decreaseFontSize={decreaseFontSize}

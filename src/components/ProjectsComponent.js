@@ -1,13 +1,14 @@
 import React from 'react';
 import '../App.css';
-import Petrinja from '../assets/Petrinja.jpg';
+import slika from '../assets/Petrinja.jpg';
 import EUnoteProject from './EUnoteProject';
+import TopImage from './TopImage';
 
 const ProjectsComponent = () => {
     
     return (
     <div className="main_content">
-        <img src={Petrinja} alt="Slika Petrinje." style={{ width: '100%', height: 'auto' }} />
+        <TopImage selectedImage={slika} />
         {/* <EUnoteProject /> */}
         <h1>NOVI RAZVOJ U PETRINJI KABEL-OPTIKA d.o.o.</h1>
         <h2>Kod projekta: KK.08.2.1.16.0148</h2>
