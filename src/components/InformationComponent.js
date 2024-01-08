@@ -20,13 +20,11 @@ const InformationComponent = () => {
                 <p>Ćire Truhelke 15</p>
                 <p>HR-10000 Zagreb</p>
                 <br />
-                <br />
                 <p>Telefon: +385 (0)1 366 5055</p>
                 <p>E-pošta: info@kabel-optika.hr</p>
             </div>
             {/* <div className="spacer"></div> */}
             <div className={`box right ${animate ? 'enter' : 'right-enter'}`}>
-                <p>Ključna osoba: Tomislav Krešić</p>
                 <p>Godina osnutka: 2000.</p>
                 <p>Mjerodavni sud: Trgovački sud u Zagrebu</p>
                 <p>Pravni oblik: društvo s ograničenom odgovornošću</p>
