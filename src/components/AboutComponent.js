@@ -20,9 +20,7 @@ const AboutComponent = () => {
                             tijekom dugog niza godina izvodeći mnogobrojne projekte, među ostalim i za klijente kao što su
                             Jadranski naftovod (JANAF), HEP Toplinarstvo, Hrvatski Telekom, Sokol Vinkovci, IG visokogradnja Sesvete,
                             Lučka uprava Sisak te Ministarstvo prostornoga uređenja, graditeljstva i državne imovine Republike Hrvatske.
-                            Neprestano težimo daljnjem poboljšanju kvalitete svojih usluga, pri čemu je najvažnija stručnost naših djelatnika,
-                            njih 35, koliko trenutačno zapošljavamo. Učinkovitosti našeg rada pridonosi i vozni park kojeg čini 6 kombi vozila, 
-                            5 kamiona kipera, 8 bagera rovokopača, 2 valjka i dr.
+                            Neprestano težimo daljnjem poboljšanju kvalitete svojih usluga, pri čemu je najvažnija stručnost naših djelatnika.
                         </p>
                     </div>
                 </div>
