@@ -31,14 +31,16 @@ const AboutComponent = () => {
                             Neprestano težimo daljnjem poboljšanju kvalitete svojih usluga, pri čemu je najvažnija stručnost naših djelatnika.
                         </p>
                     </div>
-                    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-        <div className="card" onClick={handleCardClick}>
-          <h1>Ime projekta</h1>
-        </div>
-        <div className="card" onClick={handleCardClick}>
-          <h2>Ime naručitelja</h2>
-        </div>
-      </ReactCardFlip>
+                    <div className="box">
+                        <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+                            <div className="card" onClick={handleCardClick}>
+                                <h1>Ime projekta</h1>
+                            </div>
+                            <div className="card" onClick={handleCardClick}>
+                                <h2>Ime naručitelja</h2>
+                            </div>
+                        </ReactCardFlip>
+                    </div>
                 </div>
             </div>
     );
