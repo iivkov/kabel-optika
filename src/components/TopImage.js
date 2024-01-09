@@ -4,7 +4,9 @@ import '../App.css';
 
 const TopImage = ({ selectedImage }) => {
     return (
-    <div className="top-image" style={{ backgroundImage: `url(${selectedImage})` }}></div>
+    <div className="top-image" style={{ backgroundImage: `url(${selectedImage})` }}>
+        
+    </div>
     )
 };
 

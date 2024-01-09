@@ -2,6 +2,8 @@ import React, {useState, useEffect } from 'react';
 import '../App.css';
 import slika from '../assets/3.jpg';
 import TopImage from './TopImage';
+// import ReactFlipCard from 'reactjs-flip-card'
+import ReactCardFlip from 'react-card-flip';
 
 const AboutComponent = () => {
     const [animate, setAnimate] = useState(false);
@@ -9,6 +11,12 @@ const AboutComponent = () => {
     useEffect(() => {
       setAnimate(true);
     }, []);
+
+    const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleCardClick = () => {
+    setIsFlipped(!isFlipped);
+  };
 
     return (
         <div className="main_content">
@@ -23,6 +31,14 @@ const AboutComponent = () => {
                             Neprestano težimo daljnjem poboljšanju kvalitete svojih usluga, pri čemu je najvažnija stručnost naših djelatnika.
                         </p>
                     </div>
+                    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+        <div className="card" onClick={handleCardClick}>
+          <h1>Ime projekta</h1>
+        </div>
+        <div className="card" onClick={handleCardClick}>
+          <h2>Ime naručitelja</h2>
+        </div>
+      </ReactCardFlip>
                 </div>
             </div>
     );

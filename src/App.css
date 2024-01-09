@@ -346,3 +346,18 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.card {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.card:hover {
+  background-color: #f0f0f0;
+}
