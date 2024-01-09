@@ -41,7 +41,7 @@ body {
 }
 
 /* .logo {
-    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
 } */
 
 .menu-icon {
@@ -49,6 +49,7 @@ body {
 }
 
 /* .nav-elements {
+  transition: transform 0.5s ease-in-out;
 } */
 
 .nav-elements ul {

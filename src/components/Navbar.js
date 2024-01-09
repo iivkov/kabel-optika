@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className="menu-icon" onClick={handleShowNavbar}>
         <HamburgerLogo />
     </div>
-    <div className={`nav-elements  ${showNavbar && 'active'}`}>
+    <div className={`nav-elements right ${showNavbar && 'active'}`}>
       <ul>
         <li>
           <NavLink to="/">Početna</NavLink>
