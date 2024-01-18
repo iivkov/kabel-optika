@@ -6,17 +6,17 @@ import TopImage from './TopImage';
 import ReactCardFlip from 'react-card-flip';
 
 const AboutComponent = () => {
-    const [animate, setAnimate] = useState(false);
+//     const [animate, setAnimate] = useState(false);
 
-    useEffect(() => {
-      setAnimate(true);
-    }, []);
+//     useEffect(() => {
+//       setAnimate(true);
+//     }, []);
 
-    const [isFlipped, setIsFlipped] = useState(false);
+//     const [isFlipped, setIsFlipped] = useState(false);
 
-  const handleCardClick = () => {
-    setIsFlipped(!isFlipped);
-  };
+//   const handleCardClick = () => {
+//     setIsFlipped(!isFlipped);
+//   };
 
     return (
         <div className="main_content">
@@ -31,7 +31,7 @@ const AboutComponent = () => {
                             Neprestano težimo daljnjem poboljšanju kvalitete svojih usluga, pri čemu je najvažnija stručnost naših djelatnika.
                         </p>
                     </div>
-                    <div className="box">
+                    {/* <div className="box">
                         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
                             <div className="card" onClick={handleCardClick}>
                                 <h1>Ime projekta</h1>
@@ -40,7 +40,7 @@ const AboutComponent = () => {
                                 <h2>Ime naručitelja</h2>
                             </div>
                         </ReactCardFlip>
-                    </div>
+                    </div> */}
                 </div>
             </div>
     );

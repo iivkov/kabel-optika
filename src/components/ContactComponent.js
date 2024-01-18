@@ -6,9 +6,9 @@ import TopImage from "./TopImage";
 
 const ContactComponent = () => {
     const form = useRef();
-    const SERVICE_ID = "service_9qzvnm9";
-    const TEMPLATE_ID = "template_42h3ixv";
-    const PUBLIC_KEY = "JaqES2t07KyP4xRAt";
+    const SERVICE_ID = "service_c9xfdk7";
+    const TEMPLATE_ID = "template_7pp5bcq";
+    const PUBLIC_KEY = "M-4tGCyzhVCDjW15A";
     const [animate, setAnimate] = useState(false);
 
     useEffect(() => {
