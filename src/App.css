@@ -132,7 +132,7 @@ body {
 .footer {
   height: 250px;
   display: flex;
-  background-color: var(--footer-color);;
+  background-color: var(--footer-color);
   color: var(--footer-font-color);
   position: relative;
   align-items: center;
