@@ -1,9 +1,10 @@
 import React, {useState, useEffect } from 'react';
 import '../App.css';
-import slika from '../assets/3.jpg';
+import slika from '../assets/top/3.jpg';
 import TopImage from './TopImage';
 // import ReactFlipCard from 'reactjs-flip-card'
 import ReactCardFlip from 'react-card-flip';
+import { Gallery } from "./Gallery"
 
 const AboutComponent = () => {
 //     const [animate, setAnimate] = useState(false);
@@ -41,6 +42,7 @@ const AboutComponent = () => {
                             </div>
                         </ReactCardFlip>
                     </div> */}
+                    <Gallery />
                 </div>
             </div>
     );

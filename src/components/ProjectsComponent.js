@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import slika from '../assets/Petrinja.jpg';
+import slika from '../assets/top/Petrinja.jpg';
 import EUnoteProject from './EUnoteProject';
 import TopImage from './TopImage';
 

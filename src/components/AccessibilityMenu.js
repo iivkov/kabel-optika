@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ReactComponent as AccessibilityLogo } from '../assets/accessibility_logo.svg';
+import { ReactComponent as AccessibilityLogo } from '../assets/icons/accessibility_logo.svg';
 
 const AccessibilityMenu = ({
     increaseFontSize,

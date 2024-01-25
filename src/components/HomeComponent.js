@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import EUnoteSite from './EUnoteSite';
-import slika from '../assets/1.jpg';
+import slika from '../assets/top/1.jpg';
 import slika2 from '../assets/9.jpg';
 import TopImage from './TopImage';
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
-import slika from '../assets/4.jpg';
+import slika from '../assets/top/4.jpg';
 import TopImage from './TopImage';
 
 const InformationComponent = () => {

@@ -1,8 +1,8 @@
 import '../App.css';
-import MRRFEU_logo from '../assets/MRRFEU_logo.png';
-import EU_logo from '../assets/EU_logo.png';
-import ESIF_logo from '../assets/ESIF_logo.png';
-import OPKK_logo from '../assets/OPKK_logo.png';
+import MRRFEU_logo from '../assets/icons/MRRFEU_logo.png';
+import EU_logo from '../assets/icons/EU_logo.png';
+import ESIF_logo from '../assets/icons/ESIF_logo.png';
+import OPKK_logo from '../assets/icons/OPKK_logo.png';
 
 const EUnoteProject = () => {
 

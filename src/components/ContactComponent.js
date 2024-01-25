@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import '../App.css';
-import slika from '../assets/13.jpg';
+import slika from '../assets/top/13.jpg';
 import TopImage from "./TopImage";
 
 const ContactComponent = () => {
