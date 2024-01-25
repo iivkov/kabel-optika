@@ -19,7 +19,6 @@ const AboutComponent = () => {
                             Neprestano težimo daljnjem poboljšanju kvalitete svojih usluga, pri čemu je najvažnija stručnost naših djelatnika.
                         </p>
                     </div>
-                    {/* <Gallery /> */}
                 </div>
                 <div className="gallery">
                     <Gallery />

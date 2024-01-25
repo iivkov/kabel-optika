@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../App.css';
 import EUnoteSite from './EUnoteSite';
 import slika from '../assets/top/1.jpg';
-import slika2 from '../assets/9.jpg';
+import slika2 from '../assets/Radovi na izgradnji Retail parka PIGIK Petrinja/12.jpg'
 import TopImage from './TopImage';
 
 const HomeComponent = () => {
@@ -27,7 +27,7 @@ const HomeComponent = () => {
                     Stojimo Vam na raspolaganju. Čekamo Vaš poziv.</p>
             </div>
             <div className={`box right ${animate ? 'enter' : 'right-enter'}`}>
-                <img src={slika2} alt="Slika građevinskih radova." style={{ width: '80%', height: 'auto' }} />
+                <img src={slika2} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
             </div>
         </div>
     </div>
