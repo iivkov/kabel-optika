@@ -347,20 +347,20 @@ textarea {
   background-repeat: no-repeat;
 }
 
-.card {
-  width: 200px;
-  height: 200px;
-  border: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  perspective: 1000px;
+@media (max-width: 768px) {
+  .gallery {
+    padding: 20px;
+  }
 }
 
-.card:hover {
-  background-color: #f0f0f0;
+@media (min-width: 768px) {
+  .gallery {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
 }
+
 
 .lg-react-element {
   column-count: 3;
