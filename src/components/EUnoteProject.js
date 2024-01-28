@@ -9,18 +9,18 @@ const EUnoteProject = () => {
   return (
     <div className="EU-note">
         <a href="https://razvoj.gov.hr/" target="_blank" rel="noopener noreferrer">
-            <div class="image"><img src={MRRFEU_logo} alt="Logotip Ministarstva regionalnog razvoja i fondova Europske unije"/></div>
+            <div className="image"><img src={MRRFEU_logo} alt="Logotip Ministarstva regionalnog razvoja i fondova Europske unije"/></div>
         </a>
         <a href="https://strukturnifondovi.hr/" target="_blank" rel="noopener noreferrer">
-            <div class="image"><img src={ESIF_logo} alt="Logotip Europskih strukturnih i investicijskih fondova" /></div>
+            <div className="image"><img src={ESIF_logo} alt="Logotip Europskih strukturnih i investicijskih fondova" /></div>
         </a>
         <a href="https://opzo-opkk.hr/" target="_blank" rel="noopener noreferrer">
-            <div class="image"><img src={OPKK_logo} alt="Logotip Operativnog programa Konkurentnost i kohezija" /></div>
+            <div className="image"><img src={OPKK_logo} alt="Logotip Operativnog programa Konkurentnost i kohezija" /></div>
         </a>
         <a href="https://european-union.europa.eu/index_hr" target="_blank" rel="noopener noreferrer">
-            <div class="image"><img src={EU_logo} alt="Zastava Europske unije"/></div>
+            <div className="image"><img src={EU_logo} alt="Zastava Europske unije"/></div>
         </a>
-        <div class="text">Projekt je sufinancirala Europska unija – „Europski fond za regionalni razvoj“.</div>
+        <div className="text">Projekt je sufinancirala Europska unija – „Europski fond za regionalni razvoj“.</div>
     </div>
   )
 }

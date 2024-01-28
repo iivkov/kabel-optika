@@ -35,7 +35,7 @@ const ContactComponent = () => {
         <h1>Kontakt</h1>
         <div className="container">
             <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>
-                <form class="contact" ref={form} onSubmit={handleSubmit}>
+                <form className="contact" ref={form} onSubmit={handleSubmit}>
                     <div>
                         <label htmlFor="sender_name">Ime i prezime:</label>
                         <input type="text" id="sender_name" name="sender_name" placeholder="Unesite svoje ime i prezime" required />
