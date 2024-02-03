@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+// import {Helmet} from "react-helmet";
 import '../App.css';
 import EUnoteSite from './EUnoteSite';
 import slika from '../assets/top/1.jpg';
@@ -18,6 +19,10 @@ const HomeComponent = () => {
         <TopImage selectedImage={slika} />
         <EUnoteSite/>
         <h1>Dobrodošli!</h1>
+        {/* <Helmet>
+            <title>Vaša stranica</title>
+            <meta name="description" content="Opis vaše stranice" />
+        </Helmet> */}
         <div className="container">
             <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>
                 <p>Tvrtka KABEL-OPTIKA d.o.o. osnovana je 2000. godine. 
