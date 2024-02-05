@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import '../App.css';
 import slika from '../assets/top/Petrinja.jpg';
 import EUnoteProject from './EUnoteProject';
@@ -8,6 +9,11 @@ const ProjectsComponent = () => {
     
     return (
     <div className="main_content">
+        <Helmet>
+            <title>EU projekti – KABEL-OPTIKA d.o.o.</title>
+            <meta name="description" content="NOVI RAZVOJ U PETRINJI KABEL-OPTIKA d.o.o. projekt je kojim smo otvorili svoju podružnicu u Petrinji." />
+            <meta name="keywords" content="projekt, EU, podružnica" />
+        </Helmet>
         <TopImage selectedImage={slika} />
         {/* <EUnoteProject /> */}
         <h1>NOVI RAZVOJ U PETRINJI KABEL-OPTIKA d.o.o.</h1>

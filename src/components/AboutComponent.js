@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../App.css';
 import slika from '../assets/top/3.jpg';
 import TopImage from './TopImage';
@@ -8,6 +9,11 @@ const AboutComponent = () => {
 
     return (
         <div className="main_content">
+                <Helmet>
+                    <title>O nama – KABEL-OPTIKA d.o.o.</title>
+                    <meta name="description" content="Naše glavne djelatnosti su zemljani radovi niskogradnje, a iskustvo i kvalitetu izgradili smo tijekom puno godina zahvaljujući stručnosti naših djelatnika." />
+                    <meta name="keywords" content="zemljani radovi, niskogradnja, iskustvo, kvaliteta, stručnost" />
+                </Helmet>
                 <TopImage selectedImage={slika} />
                 <h1>O nama</h1>
                 <div className="container">

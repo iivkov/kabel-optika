@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet";
 import '../App.css';
 import EUnoteSite from './EUnoteSite';
 import slika from '../assets/top/1.jpg';
@@ -15,14 +15,14 @@ const HomeComponent = () => {
 
     return (
     <div className="main_content">
-        {/* <div className="top-image"></div> */}
+        <Helmet>
+            <title>Početna – KABEL-OPTIKA d.o.o.</title>
+            <meta name="description" content="Specijalizirani smo za izvođenje svih vrsta građevinskih radova, uključujući izgradnju cjevovoda, telekomunikacijskih vodova i nasipa te uklanjanje objekata." />
+            <meta name="keywords" content="građevinski radovi, izgradnja objekata, održavanje, cjevovodi, telekomunikacijski vodovi, nasipi, uklanjanje objekata, zadovoljstvo, kvaliteta, iskustvo, stručnost, opremljenost " />
+        </Helmet>
         <TopImage selectedImage={slika} />
         <EUnoteSite/>
         <h1>Dobrodošli!</h1>
-        {/* <Helmet>
-            <title>Vaša stranica</title>
-            <meta name="description" content="Opis vaše stranice" />
-        </Helmet> */}
         <div className="container">
             <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>
                 <p>Tvrtka KABEL-OPTIKA d.o.o. osnovana je 2000. godine. 
@@ -32,7 +32,7 @@ const HomeComponent = () => {
                     Stojimo Vam na raspolaganju. Čekamo Vaš poziv.</p>
             </div>
             <div className={`box right ${animate ? 'enter' : 'right-enter'}`}>
-                <img src={slika2} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
+                <img decoding="async" src={slika2} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
             </div>
         </div>
     </div>

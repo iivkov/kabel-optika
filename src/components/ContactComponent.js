@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useRef } from "react";
+import {Helmet} from "react-helmet";
 import emailjs from '@emailjs/browser';
 import '../App.css';
 import slika from '../assets/top/13.jpg';
@@ -31,6 +32,11 @@ const ContactComponent = () => {
 
 	return (
     <div className="main_content">
+        <Helmet>
+            <title>Kontakt – KABEL-OPTIKA d.o.o.</title>
+            <meta name="description" content="Glavna načela kojima se vodimo u poslovanju su kvaliteta i stručnost, s krajnjom težnjom zadovoljstvu svih klijenata. Stoga nam se javite!" />
+            <meta name="keywords" content="kvaliteta, stručnost, zadovoljstvo" />
+        </Helmet>
         <TopImage selectedImage={slika} />
         <h1>Kontakt</h1>
         <div className="container">
@@ -57,7 +63,7 @@ const ContactComponent = () => {
             </div>
         {/* <div className="spacer"></div> */}
             <div className={`box right ${animate ? 'enter' : 'right-enter'}`}>
-                <iframe title="Lokacija tvrtke" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d695.5245968052798!2d15.952682269637318!3d45.78925659819257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d69099c16d9f%3A0xeffe502d8c8b4d13!2sUl.%20%C4%86ire%20Truhelke%2015%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1703317735526!5m2!1shr!2shr" width="100%" height="400" style={{border: 0, allowfullscreen: "", loading: "lazy", referrerpolicy: "no-referrer-when-downgrade"}}></iframe>
+                <iframe title="Lokacija tvrtke" decoding="async" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d695.5245968052798!2d15.952682269637318!3d45.78925659819257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d69099c16d9f%3A0xeffe502d8c8b4d13!2sUl.%20%C4%86ire%20Truhelke%2015%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1703317735526!5m2!1shr!2shr" width="100%" height="400" style={{border: 0, allowfullscreen: "", loading: "lazy", referrerpolicy: "no-referrer-when-downgrade"}}></iframe>
             </div>
         </div>
     </div> 

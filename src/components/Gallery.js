@@ -122,7 +122,7 @@ export function Gallery() {
                 {images.map((image, index) => {
                     return (
                         <a href={image.src} key={index}>
-                            <img className="gallery-img" alt={image.alt} src={image.src} />
+                            <img decoding="async" className="gallery-img" alt={image.alt} src={image.src} />
                         </a>
                     )
                 })}

@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <div className="logo">
         <a href="/" rel="noopener noreferrer">
-          <div><img src={CompanyLogo} alt="Logotip" /></div>
+          <div><img decoding="async" src={CompanyLogo} alt="Logotip" /></div>
         </a>
       </div>
     <div className="menu-icon" onClick={handleShowNavbar}>
