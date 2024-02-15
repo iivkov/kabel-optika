@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {Helmet} from "react-helmet";
-import '../App.css';
 import EUnoteSite from './EUnoteSite';
+import '../App.css';
 import slika from '../assets/top/1.jpg';
 import slika2 from '../assets/Radovi na izgradnji Retail parka PIGIK Petrinja/12.jpg'
 import TopImage from './TopImage';

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {Helmet} from "react-helmet";
+import EUnoteSite from './EUnoteSite';
 import '../App.css';
 import slika from '../assets/top/4.jpg';
 import TopImage from './TopImage';
@@ -19,6 +20,7 @@ const InformationComponent = () => {
             <meta name="keywords" content="osnovni podatci, adresa, telefon, e-pošta" />
         </Helmet>
         <TopImage selectedImage={slika} />
+        <EUnoteSite/>
         <h1>Osnovni podatci</h1>
         <div className="container">
             <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>

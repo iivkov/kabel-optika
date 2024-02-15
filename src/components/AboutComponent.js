@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import EUnoteSite from './EUnoteSite';
 import '../App.css';
 import slika from '../assets/top/3.jpg';
 import TopImage from './TopImage';
@@ -15,6 +16,7 @@ const AboutComponent = () => {
                     <meta name="keywords" content="zemljani radovi, niskogradnja, iskustvo, kvaliteta, stručnost" />
                 </Helmet>
                 <TopImage selectedImage={slika} />
+                <EUnoteSite/>
                 <h1>O nama</h1>
                 <div className="container">
                     <div className="box">

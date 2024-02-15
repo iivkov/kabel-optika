@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import EUnoteSite from './EUnoteSite';
 import '../App.css';
 import slika from '../assets/top/Petrinja.jpg';
 import EUnoteProject from './EUnoteProject';
@@ -15,10 +16,12 @@ const ProjectsComponent = () => {
             <meta name="keywords" content="projekt, EU, podružnica" />
         </Helmet>
         <TopImage selectedImage={slika} />
-        {/* <EUnoteProject /> */}
+        <EUnoteSite/>
         <h1>NOVI RAZVOJ U PETRINJI KABEL-OPTIKA d.o.o.</h1>
         <h2>Kod projekta: KK.08.2.1.16.0148</h2>
         <h2>Naziv poziva: Podrška razvoju poduzetništva u gradu Petrinji</h2>
+        <h2>Posredničko tijelo razine 1 (PT1): Ministarstvo regionalnoga razvoja i fondova Europske unije</h2>
+        <h2>Posredničko tijelo razine 2 (PT2): Središnja agencija za financiranje i ugovaranje programa i projekata Europske unije</h2>
         <div className="container">
             <div className="box">
                 <p>Cilj ovog projekta je održiva fizička, socijalna i gospodarska regeneracija grada Petrinje, s ciljem smanjenja socijalnih nejednakosti, isključenosti i siromaštva. 
@@ -36,14 +39,25 @@ const ProjectsComponent = () => {
                 <h3>Informacije o troškovima</h3>
                 <p>Ukupna vrijednost projekta (EUR): 263.997,69</p>
                 <p>Ukupni prihvatljivi troškovi (EUR): 209.364,52</p>
-                <p>Ukupna bespovratna sredstva (EUR): 177.959,84</p>
+                <p>Ukupna bespovratna sredstva (EUR): 177.959,84 (EU sufinanciranje)</p>
             </div>
             {/* <div className="spacer"></div> */}
             <div className="box">
                 <h3>Vrijeme provedbe</h3>
-                <p>Početak provedbe: 04/2022</p>
-                <p>Kraj provedbe: 12/2023</p>
+                <p>Početak provedbe: 21.04.2022.</p>
+                <p>Kraj provedbe: 12.12.2023.</p>
                 <p>Trajanje provedbe (mjeseci): 20</p>
+            </div>
+        </div>
+        <div className="container">
+            <div className="box">
+                <h3>Podatci o korisniku</h3>
+                <p>Prijavitelj: KABEL-OPTIKA društvo s ograničenom odgovornošću za trgovinu i prijevoz</p>
+                <p>Jedinstveni broj prijavitelja: 84074605978</p>
+                <p>Adresa: Ulica Ćire Truhelke 15, Zagreb</p>
+                <p>E-pošta: kabelopti@gmail.com</p>
+                <p>Telefon: +385 98203223 </p>
+                <p>Odgovorna osoba: IVAN KREŠIĆ</p>
             </div>
         </div>
         <EUnoteProject />

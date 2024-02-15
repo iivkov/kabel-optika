@@ -238,6 +238,18 @@ p {
   /* z-index: -1; */
 }
 
+.spacer {
+  width: 5px;
+}
+
+.box-EU {
+  width: fit-content;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
 .box.left-enter {
   transform: translateX(-40%);
   /* z-index: -1; */

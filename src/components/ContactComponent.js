@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useRef } from "react";
 import {Helmet} from "react-helmet";
+import EUnoteSite from './EUnoteSite';
 import emailjs from '@emailjs/browser';
 import '../App.css';
 import slika from '../assets/top/13.jpg';
@@ -38,6 +39,7 @@ const ContactComponent = () => {
             <meta name="keywords" content="kvaliteta, stručnost, zadovoljstvo" />
         </Helmet>
         <TopImage selectedImage={slika} />
+        <EUnoteSite/>
         <h1>Kontakt</h1>
         <div className="container">
             <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>
