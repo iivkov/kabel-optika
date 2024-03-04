@@ -20,7 +20,7 @@ const EUnoteProject = () => {
         <a href="https://european-union.europa.eu/index_hr" target="_blank" rel="noopener noreferrer">
             <div className="image"><img decoding="async" src={EU_logo} alt="Zastava Europske unije"/></div>
         </a>
-        <div className="text">Projekt je sufinancirala Europska unija – „Europski fond za regionalni razvoj“.</div>
+        <div className="text">Projekt je sufinancirala Europska unija iz Europskog fonda za regionalni razvoj.</div>
     </div>
   )
 }
